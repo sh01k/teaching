@@ -4,6 +4,7 @@ teaching
 Codes for teaching
 
 ## List
+- markov_proc.m: markov process of 1st order
 - lin_predict.m: linear prediction
 
 ## License
