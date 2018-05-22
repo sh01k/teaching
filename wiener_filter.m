@@ -1,4 +1,4 @@
-%% Wiener filtering
+%% Wiener filtering for speech enhancement
 
 %Sampling freq
 fs = 8000;
@@ -10,7 +10,7 @@ fftshift = fftlen/2;
 %Frequency
 f = (0:fftlen/2-1)*fs/fftlen;
 
-%Hamming window
+%Squre root of Hann window
 win_sqrthann = sqrt(0.5-0.5*cos(2*pi*(0:fftlen-1)/(fftlen-1)))';
 
 %Read audio file
