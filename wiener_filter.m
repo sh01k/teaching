@@ -44,7 +44,7 @@ for tt=1:floor((len-fftlen)/fftshift)
     Sx = abs(X_t);
     
     %Spectral subtraction to estimate speech psd
-    Ss = abs(Sx - Sn);
+    Ss = max(Sx - Sn, 0.0);
     
     Pn = Sn.^2;
     Ps = Ss.^2;
