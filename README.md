@@ -6,6 +6,7 @@ Codes for teaching
 ## List
 - markov_proc.m: markov process of 1st order
 - lin_predict.m: linear prediction
+- wiener_filter.m: wiener filtering for speech enhancement
 
 ## License
 [MIT](https://github.com/sh01k/lecture/blob/master/LICENSE)
